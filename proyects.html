@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{Branders| Proyects</title>
+    <!--Links-->
+
+<!-- Bootstrap core CSS -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<!-- Material Design Bootstrap -->
+<link href="css/mdb.min.css" rel="stylesheet">
+<!-- Your custom styles (optional) -->
+<link href="css/style.min.css" rel="stylesheet">
+<!-- Icons cdn (not optional) -->
+<script src="https://kit.fontawesome.com/cd4e3c3477.js" crossorigin="anonymous"></script>
+
+    <!--Scroll reveal-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    
+  <style type="text/css">
+    /* Necessary for full page carousel*/
+    html,
+    body,
+    header,
+    .view {
+      height: 100%;
+      scroll-behavior: smooth;
+
+    }
+
+    /* Carousel*/
+    .carousel,
+    .carousel-item,
+    .carousel-item.active {
+      height: 100%;
+    }
+    .carousel-inner {
+      height: 100%;
+    }
+    .bg-dark{
+          background-color: #000!important;
+        }
+        .icon{
+          font-size: 30px;
+          color: white;
+        }
+        .leveserpacion{
+          
+          margin-top: 0rem; 
+          margin-bottom: 0rem; 
+          border: 1px;
+           border-top: 0px solid rgba(0,0,0,.1);
+        }
+      .carousel-item {
+        height: 65vh;
+        min-height: 300px;
+        background: no-repeat center center scroll;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+      }
+      
+      .card-columns .card {
+        display: inline-block;
+        width: 100%;
+      }
+      
+      .card-img-top {
+        width: 100%;
+        height: 200px !important; //esta es la parte importante para que todas tus card-img tengan la misma medida sin importar el tamaño de la imagen
+        border-top-left-radius: calc(0.25rem - 1px);
+        border-top-right-radius: calc(0.25rem - 1px);
+      }
+
+    @media (min-width: 800px) and (max-width: 850px) {
+      .navbar:not(.top-nav-collapse) {
+          background: #1C2331!important;
+      }
+  }
+
+  </style>
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-dark navbar-expand-sm fixed-top text-white site-header  nav-masthead py-1">
+
+    <a class="navbar-brand" href="index.html">
+      <img src="./assets/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+      {Branders
+    </a>
+    <button class="navbar-toggler float-right " type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01" >
+       
+
+        <div class="navbar-nav ml-auto text-center"><!--Listar-->
+        <a class="nav-item nav-link text-white active" href="index.html">Home</a>
+        <a class="nav-item nav-link text-white" href="#">Proyectos</a>
+        <a class="nav-item nav-link text-white" href="index.html#service">Servicios</a>
+        <a class="nav-item nav-link text-white" href="Conocenos.html">Conocenos bebe</a>
+        <a class="nav-item nav-link text-white" href="index.html#contact">Contact</a>
+        </div>
+
+      </div>
+   
+    </nav>
+  <!-- Navbar -->
+  <!-- data-ride="carousel" -->
+  <!--Carousel Wrapper-->
+  <div id="carousel-example-1z" class="carousel slide carousel-fade">
+
+    <!--Indicators-->
+    <ol class="carousel-indicators">
+      <li data-target="#carousel-example-1z" data-slide-to="0" class="active"></li>
+      <li data-target="#carousel-example-1z" data-slide-to="1"></li>
+      <li data-target="#carousel-example-1z" data-slide-to="2"></li>
+    </ol>
+    <!--/.Indicators-->
+
+    <!--Slides-->
+    <div class="carousel-inner" role="listbox">
+
+      <!--First slide WITH VIDEO MP4-->
+      <div class="carousel-item active">
+        <div class="view">
+
+          <!--Video source-->
+          <video class="video-intro" autoplay loop muted>
+            <source src="https://mdbootstrap.com/img/video/animation-intro.mp4" type="video/mp4" />
+          </video>
+
+          <!-- Mask & flexbox options-->
+          <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+
+            <!-- Content -->
+            <div class="text-center white-text mx-5 wow fadeIn">
+              <h1 class="mb-4">
+                <strong>Imagenes la paleteria u otros</strong>
+              </h1>
+
+              <p>
+                <strong>Best & free guide of responsive web design</strong>
+              </p>
+
+              <p class="mb-4 d-none d-md-block">
+                <strong>The most comprehensive tutorial for the Bootstrap 4. Loved by over 500 000 users. Video and written versions
+                  available. Create your own, stunning website.</strong>
+              </p>
+
+              <a target="_blank" href="#" class="btn btn-outline-white btn-lg">Start 
+                <i class="fas fa-graduation-cap ml-2"></i>
+              </a>
+            </div>
+            <!-- Content -->
+
+          </div>
+          <!-- Mask & flexbox options-->
+
+        </div>
+      </div>
+      <!--/First slide-->
+
+      <!--Second slide W IMG-->
+      <div class="carousel-item">
+        <div class="view" style="background-image: url('https://mdbootstrap.com/img/Photos/Others/images/77.jpg'); background-repeat: no-repeat; background-size: cover;">
+
+          <!-- Mask & flexbox options-->
+          <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+
+            <!-- Content -->
+            <div class="text-center white-text mx-5 wow fadeIn">
+              <h1 class="mb-4">
+                <strong>IMAGEN COOL</strong>
+              </h1>
+
+              <p>
+                <strong>Best & free guide of responsive web design</strong>
+              </p>
+
+              <p class="mb-4 d-none d-md-block">
+                <strong>The most comprehensive tutorial for the Bootstrap 4. Loved by over 500 000 users. Video and written versions
+                  available. Create your own, stunning website.</strong>
+              </p>
+
+              <a target="_blank" href="#" class="btn btn-outline-white btn-lg">Start
+                <i class="fas fa-graduation-cap ml-2"></i>
+              </a>
+            </div>
+            <!-- Content -->
+
+          </div>
+          <!-- Mask & flexbox options-->
+
+        </div>
+      </div>
+      <!--/Second slide-->
+
+      <!--Third slide WITH VIDEO MP4-->
+      <div class="carousel-item">
+        <div class="view">
+
+          <!--Video source-->
+          <video class="video-intro" autoplay loop muted>
+              <source src="https://mdbootstrap.com/img/video/forest.mp4" type="video/mp4" />
+          </video>
+
+          <!-- Mask & flexbox options-->
+          <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+
+            <!-- Content -->
+            <div class="text-center white-text mx-5 wow fadeIn">
+              <h1 class="mb-4">
+                <strong>ALGUN VIDEO</strong>
+              </h1>
+
+              <p>
+                <strong>Best & free guide of responsive web design</strong>
+              </p>
+
+              <p class="mb-4 d-none d-md-block">
+                <strong>The most comprehensive tutorial for the Bootstrap 4. Loved by over 500 000 users. Video and written versions
+                  available. Create your own, stunning website.</strong>
+              </p>
+
+              <a target="_blank" href="#" class="btn btn-outline-white btn-lg">Start
+                <i class="fas fa-graduation-cap ml-2"></i>
+              </a>
+            </div>
+            <!-- Content -->
+
+          </div>
+          <!-- Mask & flexbox options-->
+
+        </div>
+      </div>
+      <!--/Third slide-->
+
+    </div>
+    <!--/.Slides-->
+
+    <!--Controls-->
+    <a class="carousel-control-prev" href="#carousel-example-1z" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carousel-example-1z" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+    <!--/.Controls-->
+
+  </div>
+  <!--/.Carousel Wrapper-->
+
+ <!--Section: Images-->
+ <section class="mt-3 text-center">
+
+  <!-- Grid row -->
+  <div class="row">
+    <div  class="container-fluid text-center text-dark">
+      <h1 id="OurServices">Fotografias}</h1>
+      <br>
+    </div>
+      <!-- Grid column -->
+      <div class="col-lg-4 col-md-12 mb-3">
+        <div class="card">
+          <div class="view overlay z-depth-1-half">
+              <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/6-col/img(115).jpg" class="img-fluid" alt="">
+              <a>
+                  <div class="mask rgba-white-light"></div>
+              </a>
+                   
+        </div>
+        <div class="container my-3">
+          <h5 class="h5">Sesion 1</h5>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed non laboriosam placeat esse aliquam fugit quos dicta sint corporis officiis autem, inventore pariatur, dignissimos recusandae eaque minima quo earum natus!</p>
+          </div>  
+        </div>
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-lg-4 col-md-6 mb-3">
+        
+            <div class="card">
+        
+          <div class="view overlay z-depth-1-half">
+              <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/6-col/img(116).jpg" class="img-fluid" alt="">
+              <a>
+                  <div class="mask rgba-white-light"></div>
+              </a>
+          </div>
+          <div class="container my-3">
+            <h5 class="h5">Sesion 2</h5>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed non laboriosam placeat esse aliquam fugit quos dicta sint corporis officiis autem, inventore pariatur, dignissimos recusandae eaque minima quo earum natus!</p>
+            </div>  
+          </div>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-lg-4 col-md-6 mb-3">
+
+            <div class="card">
+
+          <div class="view overlay z-depth-1-half">
+              <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/6-col/img(117).jpg" class="img-fluid" alt="">
+              <a>
+                  <div class="mask rgba-white-light"></div>
+              </a>
+          </div>
+          <div class="container my-3">
+            <h5 class="h5">Sesion 3</h5>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed non laboriosam placeat esse aliquam fugit quos dicta sint corporis officiis autem, inventore pariatur, dignissimos recusandae eaque minima quo earum natus!</p>
+            </div>  
+          </div>
+
+      </div>
+      <!-- Grid column -->
+
+  </div>
+  <!-- Grid row -->
+
+  <!-- Grid row -->
+  <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-md-6 mb-3">
+
+          <div class="view overlay z-depth-1-half">
+              <img src="https://mdbootstrap.com/img/Photos/Horizontal/People/6-col/img(117).jpg" class="img-fluid" alt="">
+              <a>
+                  <div class="mask rgba-white-light"></div>
+              </a>
+          </div>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-6 mb-3">
+
+          <div class="view overlay z-depth-1-half">
+              <img src="https://mdbootstrap.com/img/Photos/Horizontal/People/6-col/img(129).jpg" class="img-fluid" alt="">
+              <a>
+                  <div class="mask rgba-white-light"></div>
+              </a>
+          </div>
+
+      </div>
+      <!-- Grid column -->
+
+  </div>
+  <!-- Grid row -->
+
+  <!-- Grid row -->
+  <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-md-12 mb-3">
+
+          <div class="view overlay z-depth-1-half">
+              <img src="https://mdbootstrap.com/img/Photos/Slides/img%20(137).jpg" class="img-fluid" alt="">
+              <a>
+                  <div class="mask rgba-white-light"></div>
+              </a>
+          </div>
+
+      </div>
+      <!-- Grid column -->
+
+  </div>
+  <!-- Grid row -->
+
+
+</section>
+<!--Section: Images-->
+
+  <!--Footer-->
+  <footer class="page-footer text-center font-small mt-4 wow fadeIn">
+
+    <!--Call to action-->
+    <!--<div class="pt-4">
+      <a class="btn btn-outline-white" href="https://mdbootstrap.com/docs/jquery/getting-started/download/" target="_blank" role="button">Download MDB
+        <i class="fas fa-download ml-2"></i>
+      </a>
+      <a class="btn btn-outline-white" href="https://mdbootstrap.com/education/bootstrap/" target="_blank" role="button">Start free tutorial
+        <i class="fas fa-graduation-cap ml-2"></i>
+      </a>
+    </div>-->
+    <div class="container">
+      <div class="navbar justify-content-center">
+        <a class="btn btn-sm btn-outline-white" href="#carousel-example-1z">Up</a>
+      </div>
+    </div>
+    <!--/.Call to action-->
+
+    
+
+    <!-- Social icons -->
+   
+    <!-- Social icons -->
+
+    <!--Copyright and Social icons -->
+    <div class="footer-copyright py-3">
+      <p class="lead">
+        <a href="http://www.instagram.com"><i class="fab fa-instagram icon" aria-hidden="true"></i> </a>
+        <a href="http://www.facebook.com"><i class="fab fa-facebook icon" aria-hidden="true"></i> </a>
+        <a href="http://www.whatsapp.com"><i class="fab fa-whatsapp icon"></i> </a>
+        
+      </p>
+      <small class="d-block mb-3 text-white"> Created by {Branders.ag &copy; 2020</small>
+    </div>
+    <!--/.Copyright-->
+
+  </footer>
+  <!--/.Footer-->
+
+  <!-- SCRIPTS -->
+  <!-- JQuery -->
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <!-- Initializations -->
+  <script type="text/javascript">
+    // Animations initialization
+    new WOW().init();
+  </script>
+    <!-- Collapse absurdo que no baja -->
+  <script>
+    $('.navbar-collapse a').click(function(){
+               $(".navbar-collapse").collapse('hide');
+           });
+   </script>
+</body>
+
+</html>
